@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to right, white, cornsilk);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background-image: linear-gradient(to right, white, cornsilk);
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+}
+
+.inputPassword {
+    margin-bottom: 10px;
+    margin-right: 4px;
+    font-size: 15px;
+}
+
+#copyIcon {
+    position: relative;
+    top: 6px
+  }
+
+.passwordSizeDiv {
+    margin-bottom: 10px;
+}
+
+.row {
+    padding: 1px;
+}
+
+.generatePasswordButton {
+   margin-top: 10px;
+   border-radius: 5px;
+   font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
