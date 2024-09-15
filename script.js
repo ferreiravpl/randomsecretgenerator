@@ -35,7 +35,7 @@ function generatePassword(){
     let passwordSizeChosenByUser = inputSlider.value;
   
     //Checa se existem checkboxes marcados e suas quantidades para seguir o fluxo;
-      if (!validateCheckboxes(passwordSizeChosenByUser)) {
+    if (!validateCheckboxes(passwordSizeChosenByUser)) {
         return inputPassword.value = "";
     }
 
@@ -100,7 +100,7 @@ function getRandomCharacterPerCheckbox(checkboxCharacters) {
 
 //EventListener para copiar a senha
 copyIcon.addEventListener('click', ()=>{
-    if(inputPassword.value != ""){
+    if (inputPassword.value != "") {
         navigator.clipboard.writeText(inputPassword.value);
         copyIcon.innerText = "check";
         copyIcon.title = "Senha copiada";
