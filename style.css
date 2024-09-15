@@ -1,14 +1,15 @@
 body {
-    background-image: linear-gradient(to right, white, cornsilk);
+    background-image: linear-gradient(to right, white, rgb(35, 48, 35));
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 header {
+    color: white;
     text-align: center;
 }
 
 section {
-    background-image: linear-gradient(to right, white, cornsilk);
+    background-image: linear-gradient(to right, white, rgb(247, 240, 214));
     border-radius: 10px;
     padding: 15px;
     width: 250px;
@@ -44,4 +45,5 @@ section {
 footer {
     text-align: center;
     font-style: italic;
+    color: white;
 }
