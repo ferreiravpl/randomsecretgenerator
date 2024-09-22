@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to right, white, rgb(35, 48, 35));
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', sans-serif
 }
 
 header {
@@ -12,13 +12,13 @@ section {
     background-image: linear-gradient(to right, white, rgb(247, 240, 214));
     border-radius: 10px;
     padding: 15px;
-    width: 250px;
+    width: 240px;
     margin: auto;
     box-shadow: 3px 3px 10px rgb(66, 66, 66);
 }
 
 .inputPassword {
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     margin-right: 4px;
     font-size: 15px;
 }
@@ -29,11 +29,11 @@ section {
   }
 
 .passwordSizeDiv {
-    margin-bottom: 10px;
+    padding: 4px;
 }
 
-.row {
-    padding: 1px;
+.checkboxRow {
+    padding: 2px;
 }
 
 .generatePasswordButton {
