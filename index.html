@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Gerador de senhas</title>
+    <link rel="shortcut icon" href="util/icons8-password-16.png" type="image/x-icon">
+    <title>Random Password Generator | by: Piana</title>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
     </header>
 
 <section>
-    <div class="inputPasswordDiv">
+    <div>
         <input type="text" class="inputPassword" id="inputPassword" disabled>
         <span class="material-icons" id="copyIcon">content_copy</span>
     </div>
@@ -24,22 +25,22 @@
         <span id="inputPasswordSizeValue"></span>
     </div>
 
-    <div class="row">
+    <div class="checkboxRow">
         <input type="checkbox" name ="checkParameter" id="numbers">
         <label for="numbers">Incluir números</label>
     </div>
 
-    <div class="row">
+    <div class="checkboxRow">
         <input type="checkbox" name ="checkParameter" id="specialCharacters">
         <label for="specialCharacters">Incluir caracteres especiais</label>
     </div>
 
-    <div class="row">
+    <div class="checkboxRow">
         <input type="checkbox" name ="checkParameter" id="upperCaseLetters">
         <label for="upperCaseLetters">Incluir letras maiúsculas</label>
     </div>
 
-    <div class="row">
+    <div class="checkboxRow">
         <input type="checkbox" name ="checkParameter" id="lowerCaseLetters">
         <label for="lowerCaseLetters">Incluir letras minúsculas</label>
     </div>
